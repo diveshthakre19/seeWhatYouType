@@ -17,5 +17,8 @@
   </body>
   <script>
     //code here
+    let input = document.querySelector("#input");
+    let preview = document.querySelector("#output");
+   input.addEventListener("keyup",()=> preview.innerHTML = input.value)
   </script>
 </html>
